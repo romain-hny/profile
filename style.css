@@ -1,0 +1,108 @@
+
+body {
+  background-color: #F7F9F9  ;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #545b76;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+p {
+  display: block;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+/* .social-media-icons:hover {
+    height: 25px;
+    width: 25px;
+    transition: All 1s ease-in-out;
+} */
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+a.btn-blue:hover {
+  background-color: black;
+  transition: all ease 0.3s;
+}
+
+/* responsive */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
